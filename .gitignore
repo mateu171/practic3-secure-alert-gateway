@@ -1,0 +1,24 @@
+# Go
+*.exe
+*.test
+*.out
+
+# Go workspace
+go.work
+go.work.sum
+
+# Private keys
+certs/*.key
+
+# Temporary certificate files
+certs/*.csr
+certs/*.srl
+certs/*.cnf
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
